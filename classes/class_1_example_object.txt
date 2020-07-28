@@ -1,0 +1,19 @@
+Furniture (class)
+
+booth_at_applebees (instance)
+
+attributes:
+seat_type (string): booth
+seat_material (string): pleather
+table_height_inches (integer): 30
+table_color (string): tan
+seating_capacity (integer): 75
+ada_accessible (boolean): false
+outdoor_seating (boolean): false
+
+methods:
+add_patio_seating (updates outdoor_seating): true
+reupholster (changes seat_material): leather
+install_taller_tables (updates ada_accessible and table_height_inches):
+  ada_accessible: true   table_height_inches: 40
+add_customer (decreases seating_capacity): 74
