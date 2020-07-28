@@ -1,0 +1,17 @@
+Dishware (class)
+
+dishware_at_chiles (instance)
+
+attributes:
+dishes (array): ["dish", "bowl", "skillet"]
+number_of_dishes (integer): 200
+silverware (array): ["fork", "spoon", "knife"]
+number_of_forks (integer): 200
+glasses (array): ["water", "margarita", "wine"]
+sippie_cup (boolean): false
+color_scheme (string): "green, red, white"
+
+methods:
+break_dish (decreases number_of_dishes): 199
+fork_was_stolen (decreases number_of_forks): 199
+buy_sippie_cups (updates sippie_cup): true
