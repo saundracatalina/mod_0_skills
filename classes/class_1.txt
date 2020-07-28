@@ -1,0 +1,16 @@
+Seating (class)
+
+attributes:
+seat_type (string)
+seating_capacity (integer)
+ada_accessible (boolean)
+material (string)
+outdoor_seating (boolean)
+
+
+methods:
+add_patio_seating (updates outdoor_seating)
+reupholster (changes material)
+install_ramp (updates ada_accessible)
+remodel (updates seat_type, seating_capacity)
+add_customer (decreases seating_capacity)
