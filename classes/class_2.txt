@@ -1,0 +1,16 @@
+Dishware (class)
+
+attributes:
+dishes (array)
+number_of_dishes (integer)
+silverware (array)
+number_of_forks (integer)
+glasses (array)
+sippie_cup (boolean)
+color_scheme (string)
+
+methods:
+break_dish (decreases number_of_dishes)
+fork_was_stolen (decreases number_of_forks)
+buy_new_dishware (updates number_of_dishes, number_of_forks, sippie_cup, color_scheme)
+buy_sippie_cups (updates sippie_cup)
