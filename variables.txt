@@ -1,0 +1,9 @@
+food = "burrito"
+is_delicious = true
+food = "taco"
+num2 = 20
+num7 = 80
+quotient = num7 / num2
+songs = ["dear_mama", "changes", "keep_ya_head_up"]
+songs.delete_at(0)
+food.size
