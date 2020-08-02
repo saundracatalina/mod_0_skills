@@ -1,17 +1,17 @@
-Furniture (class)
+Seating_area (class)
 
 attributes:
-seat_type (string)
+seat_types (array)
 seat_material (string)
 table_height_inches (integer)
 table_color (string)
-seating_capacity (integer)
+seating_area_capacity (integer)
 ada_accessible (boolean)
 outdoor_seating (boolean)
 
 
 methods:
 add_patio_seating (updates outdoor_seating)
-reupholster (changes seat_material)
+reupholster_seating (changes seat_material)
 install_taller_tables (updates ada_accessible and table_height_inches)
 add_customer (decreases seating_capacity)
