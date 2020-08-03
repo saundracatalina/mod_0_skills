@@ -1,4 +1,4 @@
-Dishware (class)
+Dishware_set (class)
 
 attributes:
 dishes (array)
