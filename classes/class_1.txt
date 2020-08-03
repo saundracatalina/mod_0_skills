@@ -2,16 +2,16 @@ Seating_area (class)
 
 attributes:
 seat_types (array)
-seat_material (string)
-table_height_inches (integer)
-table_color (string)
+seat_cushion_material (string)
+carpet_color (string)
+table_top_color (string)
 seating_area_capacity (integer)
-ada_accessible (boolean)
 outdoor_seating (boolean)
 
 
 methods:
-add_patio_seating (updates outdoor_seating)
+add_patio_seating (updates outdoor_seating and seating_area_capacity)
 reupholster_seating (changes seat_material)
-install_taller_tables (updates ada_accessible and table_height_inches)
 add_customer (decreases seating_capacity)
+replace_carpet (changes carpet_color)
+paint_table_tops (changes table_top_color)
